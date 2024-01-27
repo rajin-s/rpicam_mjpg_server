@@ -24,7 +24,7 @@ Use `--debug` to wait for a remote debugger to attach (eg. [VSCode](https://lear
 Serves over HTTP on port 8088
 
 - `/stream.mjpg` -- low-res mjpg video feed, single query param can be used to indicate the desired frame rate (eg. `/stream.mjpg?30`, default is 4 fps)
-- `/still.jpg` -- high-res still image, single query param can be used to indicate how recent the image must be (eg. `/still.jpg?1`, default is 30s). The first request will capture the image, subsequent requests will reuse the same cached image
+- `/still.jpg` -- high-res still image, single query param can be used to indicate how recent the image must be (eg. `/still.jpg?1`, default is 60s). The first request will capture the image, subsequent requests will reuse the same cached image
 - `/temp` -- reads CPU temperature for monitoring
 - `/`, `/index.html` -- test page
 
