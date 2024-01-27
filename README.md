@@ -1,5 +1,7 @@
 # mjpg_server.py
-Simple MJPG server for my Pi project
+A simple MJPG server for my Pi project
+
+Adapted from the [picamera2 docs example server](https://github.com/raspberrypi/picamera2/blob/main/examples/mjpeg_server.py)
 
 # Usage
 
