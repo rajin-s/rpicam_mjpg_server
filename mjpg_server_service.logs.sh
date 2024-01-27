@@ -1,0 +1,1 @@
+journalctl -u mjpg_server.service --since $1
