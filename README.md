@@ -5,15 +5,15 @@ Simple MJPG server for my Pi project
 
 `python mjpg_server.py` will start the server in manual mode (mainly for debugging). Once prompted for input, use:
 
-| command | action |
-| --- | --- |
-| `i` / `idle`        | force the camera into an idle state |
-| `c` / `capture`     | manually capture a still image |
-| `s` / `stream`      | enable passive video capture |
-| `x` / `stop-stream` | disable passive video capture |
-| `p` / `print`       | show the camera state as an integer |
-| `a`                 | print some output to make sure the script is alive |
-| `q` / `quit`        | shut down the server |
+| command 				| action 												|
+| --------------------- | ----------------------------------------------------- |
+| `i` / `idle`			| force the camera into an idle state 					|
+| `c` / `capture`		| manually capture a still image 						|
+| `s` / `stream`		| enable passive video capture 							|
+| `x` / `stop-stream`	| disable passive video capture 						|
+| `p` / `print`			| show the camera state as an integer 					|
+| `a`					| print some output to make sure the script is alive 	|
+| `q` / `quit`			| shut down the server 									|
 
 Use `--service` to run run without manual input
 
