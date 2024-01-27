@@ -219,7 +219,7 @@ s_bytesHtmlIndex = \
 """
 <html>
 	<head>
-		<title>picamera2 MJPEG streaming demo</title>
+		<title>Pi MJPG Server</title>
 	</head>
 	<body>
 		<h1>pi-cam-01.local</h1>
